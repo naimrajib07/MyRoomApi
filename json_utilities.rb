@@ -8,7 +8,6 @@ module JsonUtilities
   end
 
   def process_array(ary, mappings)
-    puts ary
     ary.collect do |element|
       element.kind_of?(Array) ? process_array(ary, mappings): rename_hash_key(element, mappings)
     end
