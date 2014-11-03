@@ -7,9 +7,9 @@ RoomORama
     2. gem install webmock
 
 ## Rspec Test Run
-   Change to project Directory and then run bellow command:
+    Change to project Directory and then run bellow command:
 
-   rspec spec/
+    rspec spec/
 
 ## Getting started
     To check the logic of hash parsing that was given as #1 Task, you need to follow bellow command:
