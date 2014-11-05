@@ -13,7 +13,9 @@ RoomORama
 
 ## Getting started
     To check the logic of hash parsing that was given as #1 Task, you need to follow bellow command:
-
+    
+    require_relative 'room_o_r_ama'
+               OR
     require "#{Dir.pwd}/room_o_r_ama.rb"
 
     json_str, mappings, url, header = TestData.dummy
